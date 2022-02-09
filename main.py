@@ -1,5 +1,4 @@
-# Version 0.9 Beta
-# Added Beta pitching Interface  
+
 
 import random
 import time
@@ -12,7 +11,7 @@ home = 0
 away = 0
 base1 = 0
 base2 = 0
-base3 = 1
+base3 = 0
 
 print("""
 |=============================|
