@@ -60,9 +60,8 @@ while ining != 4:                #game loop
  base1 = 0
  base2 = 0
  base3 = 0
-
+ print("You Are Now The Pitcher")
  while outs != 3:
-   print("You Are Now The Pitcher")
    time.sleep(1.5)
    print("\nOuts:",outs,"\tBatter steps into the box")
    cpu_hitter = random.randint(1,3)
