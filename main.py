@@ -18,6 +18,7 @@ print("""
 | Welcome to Pitch Hit Steal! |
 |=============================|
 
+When promted sellect the pitch you think the pitcher will throw, if you get it correct then you get a hit. if you dont get it correct you miss the ball and a strike is add. while pitching its the same thing execpept you are trying to strink the batter out and not allow a hit.
 """)
 
 input("\nPress Enter To Start Game ")
