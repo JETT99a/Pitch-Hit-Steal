@@ -1,5 +1,4 @@
-# Version 0.9 Beta
-# Added Beta pitching Interface  
+
 
 import random
 import time
@@ -12,13 +11,14 @@ home = 0
 away = 0
 base1 = 0
 base2 = 0
-base3 = 1
+base3 = 0
 
 print("""
 |=============================|
 | Welcome to Pitch Hit Steal! |
 |=============================|
 
+When promted sellect the pitch you think the pitcher will throw, if you get it correct then you get a hit. if you dont get it correct you miss the ball and a strike is add. while pitching its the same thing execpept you are trying to strink the batter out and not allow a hit.
 """)
 
 input("\nPress Enter To Start Game ")
@@ -60,9 +60,8 @@ while ining != 4:                #game loop
  base1 = 0
  base2 = 0
  base3 = 0
-
+ print("You Are Now The Pitcher")
  while outs != 3:
-   print("You Are Now The Pitcher")
    time.sleep(1.5)
    print("\nOuts:",outs,"\tBatter steps into the box")
    cpu_hitter = random.randint(1,3)
