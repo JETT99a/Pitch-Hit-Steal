@@ -110,3 +110,5 @@ if home >= away:
   print("You Won!!! \n The Final Score: ","\tHome: ", home, "\tAway:", away)
 elif away >= home:
   print("You Lost :( \n The Final Score: ","\tHome: ", home, "\tAway:", away)
+
+input("\n\nPress the enter key to exit.")
